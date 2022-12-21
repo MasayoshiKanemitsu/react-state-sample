@@ -1,0 +1,29 @@
+//styles
+
+.p-container {
+  text-align: center;
+}
+
+//Components
+.c-input {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  font-size: 24px;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+
+  //layout
+  &__wrap {
+    text-align: center;
+  }
+}
+
+.c-colorRect {
+  display: block;
+  width: 300px;
+  height: 400px;
+  background-color: gray;
+  margin: 0 auto 30px;
+}
