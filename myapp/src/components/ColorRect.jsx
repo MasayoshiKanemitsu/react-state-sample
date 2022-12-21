@@ -1,9 +1,9 @@
 import React from "react";
 
-const ColorRect = () => {
+const ColorRect = ({ color }) => {
   return (
     <>
-      <div className='c-colorRect'></div>
+      <div className='c-colorRect' style={{ background: color }}></div>
     </>
   );
 };
